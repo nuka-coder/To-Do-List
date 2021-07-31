@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+
+<div class="main-container">
+<h1 class="heading">To Do List</h1>
+
+  <form id="form" action="" method="get">
+
+<div class="inner-divs">
+  <label class="labels" for="task">Task:</label>
+  <input id="task" type="text" name="task" maxlength="25" placeholder="Enter your task" required/>
+  <button type="submit" class="submit"  id="btn">Submit</button>
+  <button id="reset" class="reset" type="reset" name="reset">Reset</button>
+
+</div>
+
+  </form>
+
+
+<ul id="list" class="list">
+</ul>
+
+</div>
+
+<!-- when Submit button is clicked append new li item to ul containing form content -->
+
+
+    <script src="scripts.js" charset="utf-8"></script>
+  </body>
+</html>
